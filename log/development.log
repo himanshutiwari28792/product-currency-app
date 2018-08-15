@@ -1,0 +1,1114 @@
+  [1m[35m (118.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (60.1ms)[0m  [1m[35mCREATE DATABASE `product_currency_app_dev` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (27.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (6.1ms)[0m  [1m[35mCREATE DATABASE `product_currency_app_test` DEFAULT CHARACTER SET `utf8`[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+Started GET "/" for 127.0.0.1 at 2018-08-15 17:46:31 +0530
+  [1m[35m (683.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.1) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.1) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  [1m[35m (187.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (1195.5ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (1429.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (35.8ms)[0m  [1m[34mSELECT GET_LOCK('3725710894319790285', 0)[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (17.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+Migrating to CreateUsers (20180815121522)
+  [1m[35m (502.2ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `number` int, `country_code` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20180815121522_create_users.rb:3
+  [1m[35m (21.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Create (46.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180815121522')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (61.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+Migrating to CreateProducts (20180815121814)
+  [1m[35m (411.6ms)[0m  [1m[35mCREATE TABLE `products` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `description` text, `price` decimal, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20180815121814_create_products.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180815121814')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (76.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (10.7ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2018-08-15 12:19:05', '2018-08-15 12:19:05')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (53.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('3725710894319790285')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (14.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (41.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (7.5ms)[0m  [1m[34mSELECT GET_LOCK('3725710894319790285', 0)[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+Migrating to CreateUsers (20180815121522)
+  [1m[35m (349.8ms)[0m  [1m[35mDROP TABLE `users`[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (133.3ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20180815121522'[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('3725710894319790285')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (25.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('3725710894319790285', 0)[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (10.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+Migrating to CreateUsers (20180815121522)
+  [1m[35m (510.5ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `number` int, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20180815121522_create_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180815121522')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (61.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('3725710894319790285')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (148.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (9.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('3725710894319790285', 0)[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+Migrating to CreateUsers (20180815121522)
+  [1m[35m (205.4ms)[0m  [1m[35mDROP TABLE `users`[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Destroy (43.6ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20180815121522'[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('3725710894319790285')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (10.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT GET_LOCK('3725710894319790285', 0)[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+Migrating to CreateUsers (20180815121522)
+  [1m[35m (459.6ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `number` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL)[0m
+  ↳ db/migrate/20180815121522_create_users.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20180815121522')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (74.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('3725710894319790285')[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (13.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `number`, `created_at`, `updated_at`) VALUES ('Himanshu Tiwari', 'ht.28792@gmail.com', '7869500841', '2018-08-15 12:26:19', '2018-08-15 12:26:19')[0m
+  [1m[35m (128.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `number`, `created_at`, `updated_at`) VALUES ('Ajay Barot', 'ajay@gmail.com', '1234567890', '2018-08-15 12:27:02', '2018-08-15 12:27:02')[0m
+  [1m[35m (120.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` LIMIT 11[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` LIMIT 11[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mProduct Create (16.5ms)[0m  [1m[32mINSERT INTO `products` (`name`, `description`, `price`, `created_at`, `updated_at`) VALUES ('One plus 6', 'mobile', 39999, '2018-08-15 12:28:17', '2018-08-15 12:28:17')[0m
+  [1m[35m (68.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  `products`.* FROM `products` ORDER BY `products`.`id` ASC LIMIT 1[0m
+Started GET "/" for 127.0.0.1 at 2018-08-15 19:19:20 +0530
+  [1m[35m (301.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (38.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 208ms (Views: 191.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2018-08-15 19:19:23 +0530
+  [1m[35m (260.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:19:34 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/products"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:20:00 +0530
+  [1m[35m (21.5ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (uninitialized constant ProductsController):
+  
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:53:in `block in load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:8:in `without_bootsnap_cache'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:53:in `rescue in load_missing_constant'
+bootsnap (1.3.1) lib/bootsnap/load_path_cache/core_ext/active_support.rb:42:in `load_missing_constant'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.1) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.1) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:22:29 +0530
+  [1m[35m (56.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `product' for #<ProductsController:0x00007fc2b816ae90>
+Did you mean?  product_url):
+  
+app/controllers/products_controller.rb:3:in `index'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:22:53 +0530
+  [1m[35m (33.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as HTML
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `product' for #<ProductsController:0x0000000005204ba8>
+Did you mean?  product_url):
+  
+app/controllers/products_controller.rb:3:in `index'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:23:15 +0530
+  [1m[35m (42.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as HTML
+Completed 406 Not Acceptable in 47ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (ProductsController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:23:42 +0530
+  [1m[35m (156.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (115.2ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/products_controller.rb:3
+Completed 406 Not Acceptable in 225ms (ActiveRecord: 192.4ms)
+
+
+  
+ActionController::UnknownFormat (ProductsController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:24:12 +0530
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ (pry):2
+  [1m[36mCACHE Product Load (0.0ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/products_controller.rb:4
+Completed 406 Not Acceptable in 177077ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionController::UnknownFormat (ProductsController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.1) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.1) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.1) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.1) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.1) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:41:27 +0530
+  [1m[35m (232.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (146.4ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/products_controller.rb:3
+Completed 204 No Content in 407ms (ActiveRecord: 322.6ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:42:11 +0530
+  [1m[35m (35.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (10.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (18.0ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/products_controller.rb:3
+Completed 204 No Content in 52ms (ActiveRecord: 19.2ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:50:27 +0530
+  [1m[35m (202.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (201.2ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/products_controller.rb:3
+Completed 500 Internal Server Error in 417ms (ActiveRecord: 337.9ms)
+
+
+  
+NoMethodError (undefined method `json_response' for #<ProductsController:0x00007f33e4107b00>):
+  
+app/controllers/products_controller.rb:4:in `index'
+  [1m[35m (35.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Started GET "/products" for 127.0.0.1 at 2018-08-15 19:57:50 +0530
+  [1m[35m (123.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+ActionController::RoutingError (undefined local variable or method `params' for ProductsController:Class):
+  
+app/controllers/products_controller.rb:14:in `<class:ProductsController>'
+app/controllers/products_controller.rb:1:in `<main>'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 20:00:14 +0530
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (33.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 255ms (ActiveRecord: 0.0ms)
+
+
+  
+  [1m[36mCACHE Product Load (0.0ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `json_response' for #<ProductsController:0x0000000003381e10>):
+  
+app/controllers/products_controller.rb:6:in `index'
+  [1m[36mCACHE Product Load (0.0ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Started GET "/products" for 127.0.0.1 at 2018-08-15 20:03:07 +0530
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
+
+
+  
+  [1m[36mCACHE Product Load (0.0ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `json_response' for #<ProductsController:0x00007f33e4e81c18>):
+  
+app/controllers/products_controller.rb:6:in `index'
+  [1m[36mCACHE Product Load (0.1ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Started GET "/products" for 127.0.0.1 at 2018-08-15 20:04:15 +0530
+  [1m[35m (33.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (13.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+
+
+  
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+NoMethodError (undefined method `json_response' for #<ProductsController:0x00007fc360ae4e00>):
+  
+app/controllers/products_controller.rb:6:in `index'
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` LIMIT 11[0m
+  ↳ /home/himanshu/.rvm/rubies/ruby-2.5.0/lib/ruby/gems/2.5.0/gems/did_you_mean-1.2.0/lib/did_you_mean/core_ext/name_error.rb:8
+Started GET "/products" for 127.0.0.1 at 2018-08-15 20:05:07 +0530
+  [1m[35m (203.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (95.9ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/products_controller.rb:6
+Completed 500 Internal Server Error in 64441ms (ActiveRecord: 97.2ms)
+
+
+  
+NoMethodError (undefined method `json_response' for #<ProductsController:0x00007fc3610a3b98>):
+  
+app/controllers/products_controller.rb:7:in `index'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 20:06:27 +0530
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/concerns/response.rb:3
+Completed 500 Internal Server Error in 11648ms (Views: 6.0ms | ActiveRecord: 1.7ms)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/concerns/response.rb:3:in `json_response'
+app/controllers/products_controller.rb:7:in `index'
+Started GET "/products" for 127.0.0.1 at 2018-08-15 20:07:08 +0530
+Processing by ProductsController#index as */*
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT `products`.* FROM `products`[0m
+  ↳ app/controllers/concerns/response.rb:3
+Completed 200 OK in 21ms (Views: 15.7ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/products/1" for 127.0.0.1 at 2018-08-15 20:07:24 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mProduct Load (584.7ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:21
+Completed 200 OK in 736ms (Views: 0.4ms | ActiveRecord: 584.7ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2018-08-15 20:10:18 +0530
+Processing by UsersController#index as */*
+  [1m[36mUser Load (112.0ms)[0m  [1m[34mSELECT `users`.* FROM `users`[0m
+  ↳ app/controllers/concerns/response.rb:3
+Completed 200 OK in 237ms (Views: 6.5ms | ActiveRecord: 116.6ms)
+
+
+Started GET "/user/1" for 127.0.0.1 at 2018-08-15 20:10:29 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/user/1"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/users/1" for 127.0.0.1 at 2018-08-15 20:10:39 +0530
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2018-08-15 20:10:43 +0530
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/3" for 127.0.0.1 at 2018-08-15 20:13:53 +0530
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21
+Completed 404 Not Found in 6ms (Views: 0.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/users/4" for 127.0.0.1 at 2018-08-15 20:14:01 +0530
+Processing by UsersController#show as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:21
+Completed 404 Not Found in 4ms (Views: 0.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/products/4" for 127.0.0.1 at 2018-08-15 20:14:08 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mProduct Load (1.0ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 404 Not Found in 8ms (Views: 0.3ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/products/4?country=india" for 127.0.0.1 at 2018-08-15 20:14:38 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"4"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 404 Not Found in 1ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/4?country=india" for 127.0.0.1 at 2018-08-15 20:14:42 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"4"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 404 Not Found in 2ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:14:51 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `get_price_by_location' for #<Class:0x0000000003e55760>):
+  
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:16:36 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 200 OK in 558588ms (Views: 0.4ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:26:00 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 61ms (ActiveRecord: 1.4ms)
+
+
+  
+NameError (uninitialized constant Product::Country):
+  
+app/models/product.rb:5:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:27:56 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.5ms)
+
+
+  
+NameError (uninitialized constant Product::Country):
+  
+app/models/product.rb:6:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:28:28 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 96526ms (ActiveRecord: 1.3ms)
+
+
+  
+NameError (uninitialized constant Product::Country):
+  
+app/models/product.rb:7:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:30:48 +0530
+  [1m[35m (23.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  [1m[35m (16.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 280782ms (ActiveRecord: 1.7ms)
+
+
+  
+NoMethodError (undefined method `in' for nil:NilClass
+Did you mean?  in?):
+  
+app/models/product.rb:9:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:35:41 +0530
+  [1m[35m (180.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/himanshu/.rvm/gems/ruby-2.5.0@rails5.2/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 42.9ms)
+
+
+  
+NoMethodError (undefined method `in' for nil:NilClass
+Did you mean?  in?):
+  
+app/models/product.rb:8:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:36:17 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 200 OK in 3910ms (Views: 0.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/products/1?country=japan" for 127.0.0.1 at 2018-08-15 20:36:32 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"japan", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 200 OK in 14ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/1?country=india" for 127.0.0.1 at 2018-08-15 20:37:17 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"india", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 200 OK in 7ms (Views: 1.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/1?country=pakistan" for 127.0.0.1 at 2018-08-15 20:37:30 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"pakistan", "id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.5ms)
+
+
+  
+Exchange::NoRateError (Cannot convert inr to pkr because the defined api nor the fallbacks provide a rate):
+  
+app/models/product.rb:8:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=srilanka" for 127.0.0.1 at 2018-08-15 20:38:17 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"srilanka", "id"=>"1"}
+  [1m[36mProduct Load (17.1ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 17.1ms)
+
+
+  
+NoMethodError (undefined method `currency' for nil:NilClass):
+  
+app/models/product.rb:7:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=srilanka" for 127.0.0.1 at 2018-08-15 20:42:57 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"srilanka", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 200 OK in 31708ms (Views: 0.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/products/1?country=Sri%20Lanka" for 127.0.0.1 at 2018-08-15 20:44:05 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"Sri Lanka", "id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 6.2ms)
+
+
+  
+Exchange::NoRateError (Cannot convert inr to lkr because the defined api nor the fallbacks provide a rate):
+  
+app/models/product.rb:9:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=Sri%20Lanka" for 127.0.0.1 at 2018-08-15 20:46:21 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"Sri Lanka", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.4ms)
+
+
+  
+Exchange::NoRateError (Cannot convert inr to lkr because the defined api nor the fallbacks provide a rate):
+  
+app/models/product.rb:8:in `get_price_by_location'
+app/controllers/products_controller.rb:10:in `show'
+Started GET "/products/1?country=United%20States" for 127.0.0.1 at 2018-08-15 20:46:39 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"United States", "id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products/1?country=United%20States" for 127.0.0.1 at 2018-08-15 20:50:08 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"United States", "id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/products/1?country=United%20States" for 127.0.0.1 at 2018-08-15 20:50:27 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"United States", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:22
+Completed 200 OK in 229879ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/products/1?country=United%20States" for 127.0.0.1 at 2018-08-15 20:54:21 +0530
+  
+SyntaxError (/home/himanshu/projects/product-currency-app/app/controllers/products_controller.rb:15: syntax error, unexpected tIDENTIFIER, expecting '}'
+      price: price
+      ^~~~~):
+  
+app/controllers/products_controller.rb:15: syntax error, unexpected tIDENTIFIER, expecting '}'
+Started GET "/products/1?country=United%20States" for 127.0.0.1 at 2018-08-15 20:54:45 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"United States", "id"=>"1"}
+  [1m[36mProduct Load (0.6ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:28
+Completed 200 OK in 27181ms (Views: 0.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/products/1?country=United%20States" for 127.0.0.1 at 2018-08-15 20:55:23 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"United States", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:28
+Completed 200 OK in 36355ms (Views: 0.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/products/1?country=Pakistan" for 127.0.0.1 at 2018-08-15 20:56:13 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"Pakistan", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:28
+Completed 200 OK in 3682ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/1?country=" for 127.0.0.1 at 2018-08-15 20:56:46 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:28
+Completed 200 OK in 2671ms (Views: 0.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/products/1?country=" for 127.0.0.1 at 2018-08-15 20:57:16 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:28
+Completed 200 OK in 4540ms (Views: 0.3ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/products/1?country=" for 127.0.0.1 at 2018-08-15 20:58:36 +0530
+  
+SyntaxError (/home/himanshu/projects/product-currency-app/app/controllers/products_controller.rb:17: formal argument cannot be an instance variable
+...f get_product_response(@product, price)
+...                       ^~~~~~~~):
+  
+app/controllers/products_controller.rb:17: formal argument cannot be an instance variable
+Started GET "/products/1?country=" for 127.0.0.1 at 2018-08-15 20:59:07 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 500 Internal Server Error in 141ms (ActiveRecord: 3.3ms)
+
+
+  
+NameError (undefined local variable or method `product_response' for #<ProductsController:0x00007f6b5cc70460>
+Did you mean?  product_params):
+  
+app/controllers/products_controller.rb:12:in `show'
+Started GET "/products/1?country=" for 127.0.0.1 at 2018-08-15 20:59:26 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/products/1?country=United%20States%20of%20America" for 127.0.0.1 at 2018-08-15 20:59:41 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"United States of America", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/1?country=Russia" for 127.0.0.1 at 2018-08-15 20:59:51 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"Russia", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 24ms (Views: 0.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/1?country=Australia" for 127.0.0.1 at 2018-08-15 21:00:00 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"Australia", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products/1?country=dubai" for 127.0.0.1 at 2018-08-15 21:00:29 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"dubai", "id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products/1?country=dubai" for 127.0.0.1 at 2018-08-15 21:00:57 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"dubai", "id"=>"1"}
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 49ms (Views: 0.2ms | ActiveRecord: 32.6ms)
+
+
+Started GET "/products/1?country=UAE" for 127.0.0.1 at 2018-08-15 21:01:08 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"UAE", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 8ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/1?country=Kuwait" for 127.0.0.1 at 2018-08-15 21:01:16 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"Kuwait", "id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/products/1?country=Germany" for 127.0.0.1 at 2018-08-15 21:01:25 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"Germany", "id"=>"1"}
+  [1m[36mProduct Load (0.4ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products/1?country=France" for 127.0.0.1 at 2018-08-15 21:01:31 +0530
+Processing by ProductsController#show as */*
+  Parameters: {"country"=>"France", "id"=>"1"}
+  [1m[36mProduct Load (0.5ms)[0m  [1m[34mSELECT  `products`.* FROM `products` WHERE `products`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/products_controller.rb:31
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
